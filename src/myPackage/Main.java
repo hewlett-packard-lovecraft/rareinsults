@@ -1,3 +1,4 @@
+package myPackage;
 import java.io.*;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -56,6 +57,7 @@ public class Main {
         insult.setNoun(nouns.get(indexNoun));
 
         System.out.println(insult.getAdjective() + " " + insult.getNoun());
+        System.out.println();
     }
 
 
